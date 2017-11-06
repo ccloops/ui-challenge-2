@@ -7,6 +7,8 @@ body {
   text-align: center;
   font-family: helvetica;
   margin: 0 auto;
+  background-color: cornsilk;
+  color: darkslategray;
 }
 
 h1 {
@@ -24,7 +26,7 @@ p {
   font-style:italic;
 }
 
-input {
+input, select {
   width: 100%;
   background-color: salmon;
   color: black;
@@ -32,7 +34,7 @@ input {
   margin-bottom: 40px;
 }
 
-label {
+label, select {
   margin: 0 auto;
   text-align:left;
   font-weight: bold;
@@ -47,6 +49,17 @@ input, value {
   padding-left: 10px;
 }
 
+button {
+  background-color: salmon;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 #last {
   margin-bottom: 0;
 }
@@ -55,4 +68,8 @@ input, value {
   text-align: right;
   float: right;
   font-style: normal;
+}
+
+#checkbox {
+  margin-top: 30px;
 }
