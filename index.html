@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>ui-challenge-2</title>
   </head>
   <body>
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <p><em>NOTE: <strong>DO NOT</strong> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your judgement at times!</em></p>
 
     <form>
-      text input
-      <input type="text" name="" value="">
-      text input w/ validation error
-      <input type="text" name="" value="">
-      select box
-      <input type="text" name="" value="">
+      <label for="text-input">text input</label>
+      <input type="text" name="text-input" value="placeholder text">
+      <label for="text-input-validation">text input w/ validation error</label>
+      <input id="last" type="text" name="text-input-validation" value="placeholder text">
     </form>
+    <p id="valid">please enter a valid username</p>
 
   </body>
 </html>
