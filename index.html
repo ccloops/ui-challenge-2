@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
@@ -8,14 +9,12 @@
   </head>
   <body>
     <h1>UI Challenge - Custom Form Elements</h1>
-    <p><em>NOTE: <strong>DO NOT</strong> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your judgement at times!</em></p>
 
     <form>
       <label for="text-input">text input</label>
-      <input type="text" name="text-input" value="placeholder text">
+      <input type="text" name="text-input" placeholder="placeholder text">
       <label for="text-input-validation">text input w/ validation error</label>
-      <input id="last" type="text" name="text-input-validation" value="placeholder text">
-    <p id="valid">please enter a valid username</p>
+      <input id="last" type="text" name="text-input-validation" placeholder="placeholder text">
     <label>select box</label>
       <select>
         <option value="select">please select an option...</option>
@@ -29,15 +28,17 @@
       <label id="checkbox">checkbox</label>
       <input type="checkbox">
       <input type="checkbox">
-      
+
       <label>radio</label>
       <input type="radio" name="radio">
       <input type="radio" name="radio">
+
+      <label id="buttons">buttons</label>
+
+      <button type="submit" name="button">submit</button>
+      <button type="submit" name="button">submit</button>
+
     </form>
-
-      <button type="submit" name="button">Submit</button>
-      <button type="submit" name="button">Submit</button>
-
 
   </body>
 </html>
